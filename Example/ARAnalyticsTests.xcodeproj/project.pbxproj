@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		464FB9E6ECACD0ADF4B26065 /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF23B9FBDC3D73D35212CAB /* libPods-ARAnalyticsBootstrapiOS.a */; };
+		29B61D5400D08B8C1F19CA5F /* libPods-ARAnalyticsiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C5A9B7BEB5AF2EE8C6DA4EA7 /* libPods-ARAnalyticsiOSTests.a */; };
 		5E0E7BCF1913D57400DA982C /* ARAnalyticsDSLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0E7BCE1913D57400DA982C /* ARAnalyticsDSLTests.m */; };
 		603AE9F318E1AE49004AEBF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 603AE9F218E1AE49004AEBF8 /* XCTest.framework */; };
 		603AE9F418E1AE49004AEBF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60A5E6121698DB4400686918 /* Foundation.framework */; };
@@ -33,9 +33,9 @@
 		60FF26851749771E005F8435 /* ORAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60FF26841749771E005F8435 /* ORAppDelegate.m */; };
 		60FF26881749771F005F8435 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60FF26861749771F005F8435 /* MainMenu.xib */; };
 		60FF268D17498318005F8435 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60FF268C17498318005F8435 /* Security.framework */; };
+		79239FD55ED2750012FE27A3 /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38E35DBF72B638BE973C9049 /* libPods-ARAnalyticsBootstrapiOS.a */; };
 		9C45E7644D654CB2A4940A18 /* libPods-ARAnalyticsiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 098BAA2082A04DABA4E2599A /* libPods-ARAnalyticsiOSTests.a */; };
 		A2750F25723A4344992E231B /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA562281B834E738D18B40A /* libPods-ARAnalyticsBootstrapiOS.a */; };
-		A5B65D1FEDF0A6014F3EE45F /* libPods-ARAnalyticsiOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E6128EF8C5D8615F1E2C4A /* libPods-ARAnalyticsiOSTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +51,7 @@
 /* Begin PBXFileReference section */
 		098BAA2082A04DABA4E2599A /* libPods-ARAnalyticsiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11CF516674AC2BCFAA067061 /* Pods-ARAnalyticsiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARAnalyticsiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARAnalyticsiOSTests/Pods-ARAnalyticsiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		38E35DBF72B638BE973C9049 /* libPods-ARAnalyticsBootstrapiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsBootstrapiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CA562281B834E738D18B40A /* libPods-ARAnalyticsBootstrapiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsBootstrapiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E0E7BCE1913D57400DA982C /* ARAnalyticsDSLTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARAnalyticsDSLTests.m; sourceTree = "<group>"; };
 		603AE9F118E1AE49004AEBF8 /* ARAnalyticsiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARAnalyticsiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,11 +97,10 @@
 		60FF26871749771F005F8435 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		60FF268C17498318005F8435 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		6233AE386FE995967DF9371B /* Pods-ARAnalyticsiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARAnalyticsiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARAnalyticsiOSTests/Pods-ARAnalyticsiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFF23B9FBDC3D73D35212CAB /* libPods-ARAnalyticsBootstrapiOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsBootstrapiOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30A82DFC7B4673C53BE834E /* Pods-ARAnalyticsBootstrapiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARAnalyticsBootstrapiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARAnalyticsBootstrapiOS/Pods-ARAnalyticsBootstrapiOS.release.xcconfig"; sourceTree = "<group>"; };
+		C5A9B7BEB5AF2EE8C6DA4EA7 /* libPods-ARAnalyticsiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9C95C4F94D6FA85E08D83B3 /* Pods-ARAnalyticsBootstrapiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARAnalyticsBootstrapiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARAnalyticsBootstrapiOS/Pods-ARAnalyticsBootstrapiOS.debug.xcconfig"; sourceTree = "<group>"; };
 		DBFC8EEA18444170B5070ED6 /* libPods-ARAnalyticsBootstrapMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsBootstrapMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4E6128EF8C5D8615F1E2C4A /* libPods-ARAnalyticsiOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARAnalyticsiOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,7 +112,7 @@
 				603AE9F518E1AE49004AEBF8 /* UIKit.framework in Frameworks */,
 				603AE9F418E1AE49004AEBF8 /* Foundation.framework in Frameworks */,
 				9C45E7644D654CB2A4940A18 /* libPods-ARAnalyticsiOSTests.a in Frameworks */,
-				A5B65D1FEDF0A6014F3EE45F /* libPods-ARAnalyticsiOSTests.a in Frameworks */,
+				29B61D5400D08B8C1F19CA5F /* libPods-ARAnalyticsiOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,7 +125,7 @@
 				60A5E6131698DB4400686918 /* Foundation.framework in Frameworks */,
 				60A5E6151698DB4400686918 /* CoreGraphics.framework in Frameworks */,
 				A2750F25723A4344992E231B /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */,
-				464FB9E6ECACD0ADF4B26065 /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */,
+				79239FD55ED2750012FE27A3 /* libPods-ARAnalyticsBootstrapiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +288,8 @@
 		D78072DB556C738165B84642 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFF23B9FBDC3D73D35212CAB /* libPods-ARAnalyticsBootstrapiOS.a */,
-				F4E6128EF8C5D8615F1E2C4A /* libPods-ARAnalyticsiOSTests.a */,
+				38E35DBF72B638BE973C9049 /* libPods-ARAnalyticsBootstrapiOS.a */,
+				C5A9B7BEB5AF2EE8C6DA4EA7 /* libPods-ARAnalyticsiOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -680,7 +680,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ARAnalyticsiOSTests/ARAnalyticsiOSTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -710,7 +710,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ARAnalyticsiOSTests/ARAnalyticsiOSTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -742,7 +742,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -766,7 +766,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -784,7 +784,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARAnalyticsTests/ARAnalyticsTests-Prefix.pch";
 				INFOPLIST_FILE = "ARAnalyticsTests/ARAnalyticsTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -801,7 +801,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ARAnalyticsTests/ARAnalyticsTests-Prefix.pch";
 				INFOPLIST_FILE = "ARAnalyticsTests/ARAnalyticsTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

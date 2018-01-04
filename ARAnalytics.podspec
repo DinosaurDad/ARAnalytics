@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         =  'ARAnalytics'
-  s.version      =  '4.0.1'
+  s.version      =  '5.0.1'
   s.license      =  {:type => 'MIT', :file => 'LICENSE' }
   s.homepage     =  'https://github.com/orta/ARAnalytics'
   s.authors      =  { 'orta' => 'orta.therox@gmail.com', 'Daniel Haight' => "confidence.designed@gmail.com" }
   s.source       =  { :git => 'https://github.com/orta/ARAnalytics.git', :tag => s.version.to_s }
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "7.0"
   s.osx.deployment_target = "10.7"
   s.social_media_url = "https://twitter.com/orta"
   s.summary      =  'Using subspecs you can define your analytics provider with the same API on iOS and OS X.'
@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   librato          = { :spec_name => "Librato" }
   crashlytics      = { :spec_name => "Crashlytics",         :dependency => "Crashlytics" }
   fabric           = { :spec_name => "Fabric",              :dependency => ["Fabric", "Crashlytics"] }
-  appsflyer        = { :spec_name => "AppsFlyer",           :dependency => "AppsFlyer-SDK" }
+  appsflyer        = { :spec_name => "AppsFlyer",           :dependency => "AppsFlyerFramework" }
   branch           = { :spec_name => "Branch",              :dependency => "Branch" }
   snowplow         = { :spec_name => "Snowplow",            :dependency => "SnowplowTracker" }
   sentry           = { :spec_name => "Sentry",              :dependency => "Raven" }
@@ -73,13 +73,13 @@ Pod::Spec.new do |s|
     ss.exclude_files = ['ARDSL.{h,m}']
     ss.private_header_files = 'ARNavigationControllerDelegateProxy.h'
     ss.tvos.deployment_target = '9.0'
-	  ss.ios.deployment_target = '7.0'
+	  ss.ios.deployment_target = '8.0'
   end
 
   s.subspec "DSL" do |ss|
     ss.source_files = ['ARDSL.{h,m}']
     ss.dependency 'RSSwizzle', '~> 0.1.0'
-    ss.dependency 'ReactiveObjC', '~> 3.0'
+    ss.dependency 'ReactiveObjC', '~> 3.1'
   end
 
   # for the description
